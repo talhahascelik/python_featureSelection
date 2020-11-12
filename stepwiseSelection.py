@@ -14,7 +14,7 @@
 
 import numpy as np
 import pandas as pd
-import statsmodels.formula.api as sm
+import statsmodels.api as sm
 
 def forwardSelection(X, y, model_type ="linear",elimination_criteria = "aic", varchar_process = "dummy_dropfirst", sl=0.05):
     """
